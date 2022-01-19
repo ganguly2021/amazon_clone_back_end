@@ -1,0 +1,29 @@
+{
+  "name": "amazon_clone_back_end",
+  "version": "1.0.0",
+  "description": "Amazon Clone Back End in MongoDB & Express for MERN Stack Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganguly2021/amazon_clone_back_end.git"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "back",
+    "end",
+    "rest",
+    "api",
+    "amazon",
+    "clone"
+  ],
+  "author": "Sandeep Ganguly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganguly2021/amazon_clone_back_end/issues"
+  },
+  "homepage": "https://github.com/ganguly2021/amazon_clone_back_end#readme"
+}
