@@ -224,7 +224,7 @@ router.post(
 
           // check is not password match
           if (!isMatch) {
-            return res.status(401).json({
+            return res.status(400).json({
               "status": false,
               "error": {
                 "password": "validation.password_not_match"
