@@ -26,7 +26,7 @@ const decryptJWT = () => {
       //{ url: `${api_version}/products`, methods: ['GET', 'OPTIONS'] },
       { url: /\/api\/v1\/products(.*)/, methods: ['GET', 'OPTIONS'] },
       { url: /\/api\/v1\/categories(.*)/, methods: ['GET', 'OPTIONS'] },
-      { url: /\/public\/uploads(.*)/, methods: ['GET', 'OPTIONS'] },
+      { url: /\/public(.*)/, methods: ['GET', 'OPTIONS'] },
       `${api_version}/users/login`,
       `${api_version}/users/register`
     ]

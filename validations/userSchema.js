@@ -47,9 +47,11 @@ const loginSchema = joi.object({
   email: joi.string()
     .trim()
     .email()
+    .required()
     .messages({
       'string.email': 'validation.invalid_email',
-      'string.empty': 'validation.invalid_email'
+      'string.empty': 'validation.invalid_email',
+      'any.required': 'validation.invalid_email'
     })
 });
 
